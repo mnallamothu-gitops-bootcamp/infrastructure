@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: <Your Infrastrcture Repository URL>
-    targetRevision: <The default branch in your repository>
+    repoURL: https://github.com/mnallamothu-gitops-bootcamp/infrastructure
+    targetRevision: main
     path: yaml-manifests
   destination:
     server: https://kubernetes.default.svc
