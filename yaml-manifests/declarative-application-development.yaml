@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/mnallamothu-gitops-bootcamp/infrastructure
-    targetRevision: main
+    targetRevision: development
     path: yaml-manifests
   destination:
     server: https://kubernetes.default.svc
